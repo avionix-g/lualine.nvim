@@ -31,7 +31,7 @@ return {
     b = { fg = colors.statusline_active_fg, bg = colors.status },
     c = { fg = colors.statusline_active_fg, bg = colors.statusline_active_bg },
   },
-  insert = { a = { fg = colors.background, bg = colors.blue, gui = 'bold' } },
+  insert = { a = { fg = colors.visual_fg, bg = colors.blue, gui = 'bold' } },
   visual = { a = { fg = colors.visual_fg, bg = colors.visual_bg, gui = 'bold' } },
   replace = { a = { fg = colors.background, bg = colors.pink, gui = 'bold' } },
   inactive = {
