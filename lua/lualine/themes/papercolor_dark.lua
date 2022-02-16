@@ -28,7 +28,7 @@ local colors = {
 return {
   normal = {
     a = { fg = colors.foreground, bg = colors.background, gui = 'bold' },
-    b = { fg = colors.statusline_active_fg, bg = colors.status },
+    b = { fg = colors.statusline_inactive_fg, bg = colors.statusline_inactive_bg },
     c = { fg = colors.statusline_active_fg, bg = colors.statusline_active_bg },
   },
   insert = { a = { fg = colors.visual_fg, bg = colors.blue, gui = 'bold' } },
