@@ -26,7 +26,7 @@ describe('Lualine', function()
           statusline = 1000,
           tabline = 1000,
           winbar = 1000,
-        }
+        },
       },
       sections = {
         lualine_a = { 'mode' },
@@ -102,7 +102,7 @@ describe('Lualine', function()
     ]===])
   end)
 
-  it('get_config can retrive config', function()
+  it('get_config can retrieve config', function()
     eq(config, require('lualine').get_config())
   end)
 
@@ -207,7 +207,7 @@ describe('Lualine', function()
     ]===])
   end)
 
-  it('mid divider can be disbled on special case', function()
+  it('mid divider can be disabled on special case', function()
     config.options.always_divide_middle = false
     config.sections.lualine_x = {}
     config.sections.lualine_y = {}
@@ -732,7 +732,7 @@ describe('Lualine', function()
             3: lualine_a_buffers_inactive = { bg = "#3c3836", bold = true, fg = "#a89984" }
             4: lualine_c_normal = { bg = "#3c3836", fg = "#a89984" }
         }
-        |{1:  a.txt }
+        |{1: 󰈙 a.txt }
         {2:}
         {3: ... }
         {4:                                                                                                         }|
